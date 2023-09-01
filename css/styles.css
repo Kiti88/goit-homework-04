@@ -123,7 +123,7 @@ img {
         padding-left: 0;
         display: flex;
         gap: 40px;
-        transition color:margin: ; 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list {
         margin-left: auto;
@@ -226,11 +226,14 @@ img {
         background-color: #f4f4fd;
         border-radius: 4px;
         margin-bottom: 8px;
-
+       
 }
 .section-icon {
         width: 64px;
         height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 .article-title {
         color: var(--navyblue, #2E2F42);
