@@ -259,11 +259,12 @@ img {
 .list-social {
         width: 40px;
         height: 40px;
-        flex-shrink: 0;
-        padding: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-radius: 50%;
-        background-color: #4d5ae5;
-        color: #F4F4FD;
+        background-color: #4D5AE5;
+        transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .item-social-icon {}
 .aside {
