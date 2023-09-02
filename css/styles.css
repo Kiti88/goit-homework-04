@@ -311,6 +311,7 @@ svg {
 }
 .item-social-icon:focus {
         background-color: #404bbf;
+        fill: css #f4f4fd;
 }
 .aside {
         background-color: #F4F4FD;
