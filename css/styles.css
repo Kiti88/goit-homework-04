@@ -432,8 +432,10 @@ svg {
         max-width: 264px;
 }
 .container-footer-social {
+}
+.logotip-text{
+        margin-right: 120px;
         
-
 }
 .footer-txt-social {
          font-weight: 500;
