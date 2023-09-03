@@ -483,7 +483,9 @@ svg {
         
         
 }
-.list-social-footer:hover,
+.list-social-footer:hover {
+        background-color: var(--tertiary-accent-color);
+}
 .list-social-footer:focus {
         background-color: var(--tertiary-accent-color);
         }
