@@ -1,9 +1,10 @@
 body {
         font-family: "Roboto", sans-serif;
-        color: #434455;
-        background-color: #FFFFFF;
+        color: var(--prymary-text-color);
+        background-color:var(--prymary-bg-color);
         font-size: 16px;
         letter-spacing: 0.2em;
+
 }
 h1,
 h2,
@@ -293,8 +294,33 @@ img {
         width: 16;
         height: 16;
 }
+:root {
+        --prymary-font: "Roboto", sans-serif;
+        --secondary-font: "Ralewat", sans-serif;
+
+        --prymary-bg-color: #ffffff;
+        --secondary-bg-color: #2e2f42;
+        --tertiary-bg-color: #f4f4fd;
+        --quaternary-bg-color: #ffffff;
+
+        --prymary-text-color: #434455;
+        --secondary-text-color: #2e2f42;
+        --tertiary-text-color: #ffffff;
+        --quaternary-text-color: #f4f4fd;
+
+        --prymary-accent-color: #4d5ae5;
+        --secondary-accent-color: #404bbf;
+        --tertiary-accent-color: #31d0aa;
+
+        --prymary-boarder-color: #e7e9fc;
+        --secondary-boarder-color: #8e8f99;
+
+        --social-icon-color: #f4f4fd
+
+
+}
 svg {
-        fill: css #f4f4fd;
+        fill: var(--social-icon-color);
 }
 .item-social-icon:focus {
         background-color: #404bbf;
@@ -442,7 +468,7 @@ svg {
 .item-social-footer {
         width: 40px;
         height: 40px;
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-social-footer {
         width: 100%;
